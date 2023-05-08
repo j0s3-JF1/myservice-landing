@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --white: #F8F8F8;
+  --dark: #0A0908;
+  --blue: #0A3DC2;
+}
+
+/* My Service */
+
+.LogoContainer {
+  justify-content: center;
+  display: flex;
+  position: center;
+  width: 100%;
+  height: 32.48px;
+}
+
+.titulo1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+
+  color: var(--blue);
+
+  position: absolute;
+  width: 387px;
+  height: 249px;
+  left: 321px;
+  top: 255px;
+}
+
+.titulo2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+
+  color: var(--dark);
+
+  position: absolute;
+  width: 387px;
+  height: 249px;
+  left: 321px;
+  top: 330px;
+}
+
+.IconContainer {
+  position: absolute;
+  left: 1155px;
+  top: 10px;
+}
+
+/* Conheça nos*/
+
+.conheca {
+  margin: 400px;
+
+  position: absolute;
+  width: 219px;
+  height: 108px;
+  left: 43px;
+  top: 392px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 160%;
+
+  color: var(--white);
+}
+
+.sobre {
+  margin: 600px;
+
+  position: absolute;
+  width: 471px;
+  height: 180px;
+  left: 165px;
+  top: 155px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 130.7%;
+
+  color: var(--white);
+}
+
+.button {
+  margin: 600px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8.29268px 20.7317px;
+
+  position: absolute;
+  width: 115.46px;
+  height: 33.59px;
+  left: 685px;
+  top: 230px;
+
+  border: none;
+  background: var(--white);
+  border-radius: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: var(--blue);
+}
+
+.fundo1 {
+  margin: 565px;
+  margin-left: 154px;
+
+  position: absolute;
+  justify-content: center;
+  width: 1120px;
+  height: 323px;
+  left: 200px;
+  top: 125px;
+
+  background: radial-gradient(96.44% 234.03% at 0% 3.56%, #3D68D9 0%, var(--blue) 100%);
+  border-radius: 46px;
+}
+
+/* Baixe o nosso aplicativo */
+
+.MockupPerfil {
+  position: absolute;
+  width: 624px;
+  height: 552.93px;
+  left: 285px;
+  top: 1110px;
+}
+
+.baixe {
+  position: absolute;
+  left: 920px;
+  top: 1275px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 45px;
+
+  color: var(--blue);
+}
+
+.infbaixe {
+  position: absolute;
+  width: 500px;
+  height: 12px;
+  left: 920px;
+  top: 1315px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+
+  color: var(--dark);
+}
+
+.baixa {
+  position: absolute;
+  width: 267.25px;
+  height: 32.95px;
+  left: 920px;
+  top: 1410px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+  color: #9F9999;
+}
+
+.button1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8.29268px 20.7317px;
+
+  position: absolute;
+  width: 115.46px;
+  height: 33.59px;
+  left: 920px;
+  top: 1430px;
+
+  border: none;
+  background: var(--blue);
+  border-radius: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: var(--white);
+}
+
+/* My Service Work */
+
+.MockupWork {
+  position: absolute;
+  left: 215px;
+  top: 1650px;
+}
+
+.baixeWork {
+  position: absolute;
+  width: 619px;
+  height: 45px;
+  left: 920px;
+  top: 1850px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 45px;
+
+  color: var(--blue);
+}
+
+.sobreWork {
+  position: absolute;
+  width: 500px;
+  height: 12px;
+  left: 920px;
+  top: 1890px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+
+  color: var(--dark);
+}
+
+.baixeW {
+  position: absolute;
+  width: 267.25px;
+  height: 32.95px;
+  left: 920px;
+  top: 1960px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+  color: #9F9999;
+}
+
+.buttonW {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8.29268px 20.7317px;
+
+  position: absolute;
+  width: 115.46px;
+  height: 33.59px;
+  left: 920px;
+  top: 1980px;
+
+  border: none;
+  background: var(--blue);
+  border-radius: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: var(--white);
+}
+
+/* Premium*/
+
+.MockupPremium {
+  position: absolute;
+  width: 527.72px;
+  height: 471.18px;
+  left: 1092.14px;
+  top: 2220px;
+}
+
+.acesse {
+  position: absolute;
+  left: 321px;
+  top: 2390px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 45px;
+
+  color: var(--blue);
+}
+
+.sobrePremium {
+  position: absolute;
+  width: 500px;
+  height: 12px;
+  left: 321px;
+  top: 2425px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+
+  color: var(--dark);
+}
+
+.sobrePremium2 {
+  position: absolute;
+  width: 500px;
+  height: 12px;
+  left: 321px;
+  top: 2499px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+
+  color: var(--dark);
+}
+
+/* Conheça nos */
+
+.saiba {
+  position: absolute;
+  left: 321px;
+  top: 2900px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+
+  color: var(--blue);
+}
+
+.somos {
+  position: absolute;
+  width: 600px;
+  height: 310px;
+  left: 321px;
+  top: 2975px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 120%;
+
+  color: var(--dark);
+}
+
+.somos2 {
+  position: absolute;
+  width: 500px;
+  height: 117px;
+  left: 321px;
+  top: 3080px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 130.7%;
+
+  color: var(--dark);
+}
+
+/* O porq deste tema */
+
+.interrogacao {
+  position: absolute;
+  width: 368px;
+  height: 368px;
+  left: 321px;
+  top: 3390px;
+}
+
+.porq {
+  position: absolute;
+  width: 634px;
+  height: 108px;
+  left: 861px;
+  top: 3450px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 160%;
+
+  color: var(--blue);
+}
+
+.escolhemos {
+  position: absolute;
+  width: 646px;
+  height: 222px;
+  left: 861px;
+  top: 3560px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 130.7%;
+
+  color: var(--dark);
+}
+
+/* Rede sociais */
+
+.SecundariaContainer {
+  z-index: -999;
+}
+
+.MockupRede {
+  position: absolute;
+  width: 931.79px;
+  height: 664.67px;
+  left: 815px;
+  top: 3880px;
+}
+
+.saibamais {
+  position: absolute;
+  width: 483px;
+  height: 189px;
+  left: 321px;
+  top: 4200px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 160%;
+
+  color: var(--white);
+}
+
+.siga {
+  display: flex;
+  position: absolute;
+  width: 131px;
+  height: 27px;
+  left: 321px;
+  top: 4415px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130.7%;
+
+  color: #E4E3E3;
+}
+
+
+.button2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8.29268px 20.7317px;
+
+  position: absolute;
+  width: 116.46px;
+  height: 33.59px;
+  left: 315px;
+  top: 4445px;
+
+  border: none;
+  background: var(--white);
+  border-radius: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: var(--blue);
+}
+
+.fundo2 {
+  position: relative;
+  width: 100%;
+  height: 539px;
+  left: 0px;
+  top: 4040px;
+
+  background: var(--blue);
+  z-index: -99;
+}
+
+/*Video*/
+
+.ComoUsar {
+  position: absolute;
+  width: 378px;
+  height: 150px;
+  left: 321px;
+  top: 4890px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 160%;
+
+  color: var(--blue);
+}
+
+.VideoAbaixo {
+  position: absolute;
+  width: 356px;
+  height: 83px;
+  left: 321px;
+  top: 5020px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.9733px;
+
+  color: var(--dark);
+}
+
+.VideoContainer {
+  position: absolute;
+  width: 800px;
+  height: 542.29px;
+  left: 915px;
+  top: 4700px;
+
+  background: linear-gradient(0deg, rgba(10, 61, 194, 0.44), rgba(10, 61, 194, 0.44));
+  border-radius: 27.9353px;
+}
+
+.VideoContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.Thumbnail {
+  float: left;
+  position: relative;
+}
+
+.Thumbnail span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("../../assets/PlayIcon.png") no-repeat;
+  background-position: 50% 50%;
+  /* background-size: 100%; */
+}
+
+/* Footer*/
+
+.FooterContainer {
+  z-index: -999;
+}
+
+.LogoBContainer {
+  position: absolute;
+  width: 286px;
+  height: 55.06px;
+  left: 817px;
+  top: 5375px;
+}
+
+.Informacoes {
+  position: absolute;
+  width: 740.37px;
+  left: 590px;
+  top: 5480px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+
+  color: var(--white);
+}
+
+.FundoFoooter {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  left: 0px;
+  top: 4700px;
+
+  background: var(--blue);
+  z-index: -99;
+}
+
+.Rodape {
+  position: absolute;
+  width: 100%;
+  height: 44px;
+  left: 0px;
+  top: 5588px;
+
+  background: var(--white);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
