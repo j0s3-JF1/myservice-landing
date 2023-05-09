@@ -249,6 +249,7 @@ function Home() {
                                 <img src={Twitter} />
                             </div>
                         </div>
+
                         <div className={styles.FundoFoooter}></div>
                         <div className={styles.Rodape}></div>
                     </footer>
