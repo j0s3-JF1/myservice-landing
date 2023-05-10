@@ -7,6 +7,7 @@
   font-family: 'Roboto', sans-serif;
   list-style: none;
   text-decoration: none;
+  /*background-color: aqua;*/
 }
 
 :root {
@@ -135,7 +136,7 @@
   justify-content: center;
   width: 1120px;
   height: 323px;
-  left: 200px;
+  left: 210px;
   top: 125px;
 
   background: radial-gradient(96.44% 234.03% at 0% 3.56%, #3D68D9 0%, var(--blue) 100%);
@@ -602,32 +603,111 @@
   width: 286px;
   height: 55.06px;
   left: 817px;
-  top: 5375px;
+  top: 5420px;
 }
 
 .Informacoes {
   position: absolute;
   width: 740.37px;
   left: 590px;
-  top: 5480px;
+  top: 5535px;
   display: flex;
   justify-content: space-between;
   padding: 0;
 
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 24px;
   display: flex;
 
   color: var(--white);
 }
 
+.SigaNos {
+  position: absolute;
+  left: 920px;
+  top: 5610px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+
+  color: #F8F8F8;
+}
+
+.Redes {
+  position: absolute;
+  height: 16.01px;
+  left: 912px;
+  top: 5635px;
+  margin-right: 1em;
+}
+
+.Whatsapp span {
+  margin-right: 1em;
+}
+
+.Instagram span {
+  margin-right: 1em;
+}
+
+.Twitter span {
+  margin-right: 1em;
+}
+
+.Service {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 650px;
+  top: 5702px;
+}
+
+.EmailIcon {
+  position: absolute;
+  left: 820px;
+  top: 5706.50px;
+}
+
+.Email {
+  position: absolute;
+  left: 845px;
+  top: 5707.50px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #0A3DC2;
+}
+
+.WhatsIcon {
+  position: absolute;
+  left: 1015px;
+  top: 5706.50px;
+}
+
+.Whats{
+  position: absolute;
+  left: 1042px;
+  top: 5707.50px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  color: #0A3DC2;
+}
 .FundoFoooter {
   position: relative;
   width: 100%;
   height: 360px;
   left: 0px;
-  top: 4700px;
+  top: 4800px;
 
   background: var(--blue);
   z-index: -99;
@@ -638,8 +718,9 @@
   width: 100%;
   height: 44px;
   left: 0px;
-  top: 5588px;
+  top: 5697px;
 
   background: var(--white);
   transform: matrix(1, 0, 0, -1, 0, 0);
+  z-index: -99;
 }

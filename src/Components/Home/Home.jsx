@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 
 //Importe de estilo
 
@@ -9,6 +9,7 @@ import styles from './Home.module.css';
 import Logo from '../../assets/New Logo.png';
 import LogoB from '../../assets/Logo.png';
 import Icone from '../../assets/Saly-10.png';
+import Service from '../../assets/Icon.png';
 import MockupPerfil from '../../assets/Mockup1.png';
 import MockupRede from '../../assets/Mockup.png';
 import MockupPremium from '../../assets/MockupPremium.png';
@@ -19,8 +20,15 @@ import Play from '../../assets/PlayIcon.png';
 import WhatsApp from '../../assets/Whats.Vector.png';
 import Instagram from '../../assets/Insta.Vector.png';
 import Twitter from '../../assets/TT.Vector.png';
+import Email from '../../assets/EmailIconBlue.png';
+import WhatsIcon from '../../assets/WhatsIonBlue.png';
 
 function Home() {
+
+    const sobre = useRef();
+    function scrollTo(ref) {
+        window.scrollTo({ behavior: 'smooth', top: ref.current.offsetTop })
+    }
 
     return (
         <div>
@@ -59,7 +67,7 @@ function Home() {
                             Somos um grupo de jovens que cursa Desenvolvimento de Sistemas na Etec, e decidiu fazer um app e site para ajudar pessoas a divulgarem seus serviço
                         </h4>
                     </div>
-                    <button className={styles.button}>
+                    <button onClick={() => scrollTo(sobre)} className={styles.button}>
                         Saiba mais
                     </button>
                 </div>
@@ -141,18 +149,18 @@ function Home() {
 
                 {/* Saiba mais */}
 
-                <div className={styles.SaibaContainer}>
-                    <div className={styles.saiba}>
+                <div className={styles.SaibaContainer} >
+                    <div className={styles.saiba} ref={sobre}>
                         <h1>
                             Conheça nos
                         </h1>
                     </div>
-                    <div className={styles.somos}>
+                    <div className={styles.somos} >
                         <h5>
                             Somos um grupo de jovens que cursa Desenvolvimento de sistemas na Etec, e decidiu fazer um aplicativo e site para ajudar pessoas a divulgarem seu serviço.
                         </h5>
                     </div>
-                    <div className={styles.somos2}>
+                    <div className={styles.somos2} >
                         <h5>
                             Este grupo é formado pelos jovens: Camilly Nascimento, Emerson Sales, João Pedro e José Vinicius
                         </h5>
@@ -165,7 +173,7 @@ function Home() {
                     <div className={styles.interrogacao}>
                         <img src={Interrogação} />
                     </div>
-                    <div className={styles.porq}>
+                    <div className={styles.porq} >
                         <h1>
                             Por que escolhemos este tema?
                         </h1>
@@ -243,13 +251,42 @@ function Home() {
                             <h6>
                                 Siga nos
                             </h6>
-                            <div className={styles.Redes}>
+                        </div>
+                        <div className={styles.Redes}>
+                            <a href="https://wa.me/<1197373-5968>" target="_blank" className={styles.WhatsApp}>
+                                <span></span>
                                 <img src={WhatsApp} />
+                            </a>
+                            <a href="https://www.instagram.com/jose_jf1/" target="_blank" className={styles.Instagram}>
+                                <span></span>
                                 <img src={Instagram} />
+                            </a>
+                            <a href="https://twitter.com/choquei" target="_blank" className={styles.Twitter}>
+                                <span></span>
                                 <img src={Twitter} />
+                            </a>
+                        </div>
+                        <div className={styles.Service}>
+                            <img src={Service} />
+                        </div>
+                        <div className={styles.Contatos}>
+                            <div className={styles.EmailIcon}>
+                                <img src={Email} />
+                            </div>
+                            <div className={styles.Email}>
+                                <li>
+                                   servicemy@outlook.com
+                                </li>
+                            </div>
+                            <div className={styles.WhatsIcon}>
+                                <img src={WhatsIcon} />
+                            </div>
+                            <div className={styles.Whats}>
+                                <li>
+                                    (11)99999-9999
+                                </li>
                             </div>
                         </div>
-
                         <div className={styles.FundoFoooter}></div>
                         <div className={styles.Rodape}></div>
                     </footer>
