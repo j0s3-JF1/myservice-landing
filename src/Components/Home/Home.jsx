@@ -50,7 +50,7 @@ function Home() {
                     </h4>
                 </div>
                 <div className={styles.IconContainer}>
-                    <img src={Icone} />
+                    <img src={Icone} className={styles.ImageIconContainer} />
                 </div>
 
                 {/* Conhaça um pouco sobre nos */}
@@ -275,7 +275,7 @@ function Home() {
                             </div>
                             <div className={styles.Email}>
                                 <li>
-                                   servicemy@outlook.com
+                                    servicemy@outlook.com
                                 </li>
                             </div>
                             <div className={styles.WhatsIcon}>

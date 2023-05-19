@@ -18,6 +18,56 @@
 
 /* My Service */
 
+@media (max-width: 425px) {
+
+  .LogoContainer {
+    justify-content: center;
+    display: flex;
+    position: center;
+    width: 100%;
+    background-color: aqua;
+  }
+
+  .titulo1 {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 48px !important;
+    top: 78px !important;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    width: 340px;
+  }
+
+  .titulo2 {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 30px !important;
+    top: 150px !important;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+
+    width: 340px;
+
+    text-align: center;
+  }
+
+  .IconContainer img {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: -1092px !important;
+    top: 250px !important;
+    height: 305px;
+  }
+}
+
+
 .LogoContainer {
   justify-content: center;
   display: flex;
@@ -35,8 +85,6 @@
   color: var(--blue);
 
   position: absolute;
-  width: 387px;
-  height: 249px;
   left: 321px;
   top: 255px;
 }
@@ -60,6 +108,16 @@
   position: absolute;
   left: 1155px;
   top: 10px;
+}
+
+@media (max-width: 425px) {
+  .conheca {}
+
+  .sobre {}
+
+  .button {}
+
+  .fundo1 {}
 }
 
 /* Conheça nos*/
@@ -143,6 +201,18 @@
   border-radius: 46px;
 }
 
+@media (max-width: 425px) {
+  .MockupPerfil {}
+
+  .baixe {}
+
+  .infbaixe {}
+
+  .baixa {}
+
+  .button1 {}
+}
+
 /* Baixe o nosso aplicativo */
 
 .MockupPerfil {
@@ -220,6 +290,20 @@
   font-size: 14px;
 
   color: var(--white);
+}
+
+@media (max-width: 425px) {
+
+  /* My Service Work */
+  .MockupWork {}
+
+  .baixeWork {}
+
+  .sobreWork {}
+
+  .baixeW {}
+
+  .buttonW {}
 }
 
 /* My Service Work */
@@ -690,7 +774,7 @@
   top: 5706.50px;
 }
 
-.Whats{
+.Whats {
   position: absolute;
   left: 1042px;
   top: 5707.50px;
@@ -702,6 +786,7 @@
 
   color: #0A3DC2;
 }
+
 .FundoFoooter {
   position: relative;
   width: 100%;
