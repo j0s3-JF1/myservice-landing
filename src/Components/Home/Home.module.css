@@ -84,7 +84,7 @@
   justify-content: center;
   background-color: var(--white);
   height: 80px;
-  position:  start;
+  position: fixed ;
   display: block;
   top: 0;
   left: 0;
