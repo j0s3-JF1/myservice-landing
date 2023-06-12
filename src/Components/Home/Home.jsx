@@ -6,29 +6,35 @@ import styles from './Home.module.css';
 
 //Importe imagens
 
-import Logo from '../../assets/New Logo.png';
-import LogoB from '../../assets/Logo.png';
+import NewLogo from '../../assets/Name Azul.png';
+import LogoB from '../../assets/Name branco.png';
 import Icone from '../../assets/Saly-10.png';
-import Service from '../../assets/Icon.png';
 import MockupPerfil from '../../assets/Mockup1.png';
 import MockupRede from '../../assets/Mockup.png';
 import MockupPremium from '../../assets/MockupPremium.png';
 import MockupWork from '../../assets/MockupWork.png';
 import Interrogação from '../../assets/inter.png';
 import Video from '../../assets/MockupVideo.png';
-import Play from '../../assets/PlayIcon.png';
 import WhatsApp from '../../assets/Whats.Vector.png';
 import Instagram from '../../assets/Insta.Vector.png';
 import Twitter from '../../assets/TT.Vector.png';
-import Email from '../../assets/EmailIconBlue.png';
-import WhatsIcon from '../../assets/WhatsIonBlue.png';
+import ServiceCo from '../../assets/ServiceCo.png';
+import EmailIconB from '../../assets/EmailIconB.png';
+import WhatsIconB from '../../assets/WhatsIconB.png';
+import meuPenis from "../../assets/PlayIcon.png"
 
 function Home() {
+    
+    const inicio = useRef();
+    function scrollTo(ref) {
+        window.scrollTo({ behavior: 'smooth', top: ref.current.offsetTop })
+    }
 
     const sobre = useRef();
     function scrollTo(ref) {
         window.scrollTo({ behavior: 'smooth', top: ref.current.offsetTop })
     }
+
 
     return (
         <div>
@@ -36,8 +42,10 @@ function Home() {
 
                 {/* My Service */}
 
-                <div className={styles.LogoContainer}>
-                    <img src={Logo} />
+                <div ref={inicio} className={styles.Header}>
+                    <div onClick={() => scrollTo(inicio)} className={styles.LogoContainer}>
+                        <img src={NewLogo} />
+                    </div>
                 </div>
                 <div className={styles.titulo1}>
                     <h1>
@@ -80,7 +88,7 @@ function Home() {
                     </div>
                     <div className={styles.baixe}>
                         <h1>
-                            Baixe o nosso aplicativo agora
+                            Baixe o aplicativo agora
                         </h1>
                     </div>
                     <div className={styles.infbaixe}>
@@ -106,7 +114,7 @@ function Home() {
                     </div>
                     <div className={styles.baixeWork}>
                         <h1>
-                            Baixe o nosso aplicativo Work agora
+                            Baixe o aplicativo Work agora
                         </h1>
                     </div>
                     <div className={styles.sobreWork}>
@@ -132,7 +140,7 @@ function Home() {
                     </div>
                     <div className={styles.acesse}>
                         <h1>
-                            Acesse o nossos planos premium
+                            Acesse os planos premium
                         </h1>
                     </div>
                     <div className={styles.sobrePremium}>
@@ -149,7 +157,7 @@ function Home() {
 
                 {/* Saiba mais */}
 
-                <div className={styles.SaibaContainer} >
+                <div className={styles.SaibaContainer}  >
                     <div className={styles.saiba} ref={sobre}>
                         <h1>
                             Conheça nos
@@ -204,7 +212,7 @@ function Home() {
                         </h6>
                     </div>
                     <div className={styles.fundo2}></div>
-                    <button className={styles.button2}>
+                    <button onClick={() => window.open("https://instagram.com/my.service_?igshid=ZWQyN2ExYTkwZQ==", "_blank")} className={styles.button2}>
                         Clique aqui
                     </button>
                 </div>
@@ -213,7 +221,9 @@ function Home() {
             <div /* Video*/ className={styles.TerceiraContainer}>
                 <div className={styles.VideoContainer}>
                     <a href="https://youtu.be/LntH7FHw-QQ" target="_blank" className={styles.Thumbnail}>
-                        <span></span>
+                        <span>
+                        </span>
+
                         <img src={Video} />
                     </a>
                 </div>
@@ -257,21 +267,21 @@ function Home() {
                                 <span></span>
                                 <img src={WhatsApp} />
                             </a>
-                            <a href="https://www.instagram.com/jose_jf1/" target="_blank" className={styles.Instagram}>
+                            <a href="https://instagram.com/my.service_?igshid=ZWQyN2ExYTkwZQ==" target="_blank" className={styles.Instagram}>
                                 <span></span>
                                 <img src={Instagram} />
                             </a>
-                            <a href="https://twitter.com/choquei" target="_blank" className={styles.Twitter}>
+                            <a href="https://twitter.com/_myservice?s=11" target="_blank" className={styles.Twitter}>
                                 <span></span>
                                 <img src={Twitter} />
                             </a>
                         </div>
                         <div className={styles.Service}>
-                            <img src={Service} />
+                            <img src={ServiceCo} />
                         </div>
                         <div className={styles.Contatos}>
                             <div className={styles.EmailIcon}>
-                                <img src={Email} />
+                                <img src={EmailIconB} />
                             </div>
                             <div className={styles.Email}>
                                 <li>
@@ -279,13 +289,18 @@ function Home() {
                                 </li>
                             </div>
                             <div className={styles.WhatsIcon}>
-                                <img src={WhatsIcon} />
+                                <img src={WhatsIconB} />
                             </div>
                             <div className={styles.Whats}>
                                 <li>
                                     (11)99999-9999
                                 </li>
                             </div>
+                        </div>
+                        <div className={styles.Direitos}>
+                            <li>
+                                © 2023 My Service.Todos os direitos reservados.
+                            </li>
                         </div>
                         <div className={styles.FundoFoooter}></div>
                         <div className={styles.Rodape}></div>

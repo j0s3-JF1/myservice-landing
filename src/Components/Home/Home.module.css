@@ -7,7 +7,6 @@
   font-family: 'Roboto', sans-serif;
   list-style: none;
   text-decoration: none;
-  /*background-color: aqua;*/
 }
 
 :root {
@@ -23,16 +22,21 @@
   .LogoContainer {
     justify-content: center;
     display: flex;
-    position: center;
-    width: 100%;
-    background-color: aqua;
+    position: absolute;
+    top: 14px !important;
+    left: 30px !important;
+    height: 20px !important;
+  }
+
+  .Header {
+    height: 50px !important;
   }
 
   .titulo1 {
     justify-content: center;
     display: flex;
     position: absolute;
-    left: 48px !important;
+    left: 40px !important;
     top: 78px !important;
 
     font-family: 'Roboto';
@@ -45,15 +49,14 @@
     justify-content: center;
     display: flex;
     position: absolute;
-    left: 30px !important;
+    left: 16px !important;
     top: 150px !important;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-
     width: 340px;
-
+    height: 164px !important;
     text-align: center;
   }
 
@@ -61,19 +64,33 @@
     justify-content: center;
     display: flex;
     position: absolute;
-    left: -1092px !important;
-    top: 250px !important;
+    left: -1095px !important;
+    top: 240px !important;
     height: 305px;
   }
-}
 
+}
 
 .LogoContainer {
   justify-content: center;
   display: flex;
-  position: center;
+  position: absolute;
+  top: 23px;
+  left: 50px;
+  height: 32px;
+}
+
+.Header {
+  justify-content: center;
+  background-color: var(--white);
+  height: 80px;
+  position:  start;
+  display: block;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 32.48px;
+  z-index: 300;
+  box-shadow: 0px 5px 5px rgba(10, 9, 8, 0.1);
 }
 
 .titulo1 {
@@ -111,14 +128,87 @@
 }
 
 @media (max-width: 425px) {
-  .conheca {}
 
-  .sobre {}
+  .conheca {
+    width: 190px !important;
+    height: 76px !important;
+    left: -285px !important;
+    top: 275px !important;
 
-  .button {}
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
 
-  .fundo1 {}
+    text-align: center !important;
+    color: var(--white) !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: absolute !important;
+  }
+
+  .sobre {
+    width: 195px !important;
+    height: 108px !important;
+    left: -485px !important;
+    top: 166px !important;
+
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+
+    text-align: center !important;
+    color: var(--white) !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: absolute !important;
+
+  }
+
+  .button {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 6.21951px 15.5488px !important;
+
+    position: absolute !important;
+    width: 87.1px !important;
+    height: 25.44px !important;
+    left: -445px !important;
+    top: 294px !important;
+
+    background: var(--white) !important;
+    border-radius: 15.54808px !important;
+
+    width: 115.46px !important;
+    height: 33.59px !important;
+
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+
+    color: var(--blue) !important;
+
+    flex: none !important;
+    order: 0 !important;
+    flex-grow: 0 !important;
+  }
+
+  .fundo1 {
+    width: 281px !important;
+    height: 315px !important;
+    display: flex !important;
+    left: -86px !important;
+    top: 80px !important;
+
+    background: radial-gradient(96.44% 234.03% at 0% 3.56%, #3D68D9 0%, #0A3DC2 100%);
+    border-radius: 29px;
+  }
 }
+
 
 /* Conheça nos*/
 
@@ -202,15 +292,87 @@
 }
 
 @media (max-width: 425px) {
-  .MockupPerfil {}
 
-  .baixe {}
+  .MockupPerfil {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 0.10px !important;
+    top: 1005px !important;
+    width: 410px !important;
+    height: 330px !important;
+  }
 
-  .infbaixe {}
+  .baixe {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 81px !important;
+    top: 1320px !important;
 
-  .baixa {}
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+  }
 
-  .button1 {}
+  .infbaixe {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 28px !important;
+    top: 1370px !important;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px !important;
+    text-align: center;
+    width: 370px !important;
+    height: 108px !important;
+  }
+
+  .baixa {
+    position: absolute !important;
+    left: 105px !important;
+    top: 1490px !important;
+    width: 220px !important;
+
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+  }
+
+  .button1 {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 6.21951px 15.5488px !important;
+
+    position: absolute !important;
+    width: 90px !important;
+    height: 25px !important;
+    left: 155px !important;
+    top: 1530px !important;
+
+    background: var(--blue) !important;
+    border-radius: 15.54808px !important;
+
+    width: 120px !important;
+    height: 35px !important;
+
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+
+    color: var(--white) !important;
+
+    flex: none !important;
+    order: 0 !important;
+    flex-grow: 0 !important;
+  }
 }
 
 /* Baixe o nosso aplicativo */
@@ -295,15 +457,88 @@
 @media (max-width: 425px) {
 
   /* My Service Work */
-  .MockupWork {}
 
-  .baixeWork {}
+  .MockupWork {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 8px !important;
+    top: 1570px !important;
+    width: 395px !important;
+    height: 330px !important;
+  }
 
-  .sobreWork {}
+  .baixeWork {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 50px !important;
+    top: 1880px !important;
+    width: 320px !important;
 
-  .baixeW {}
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+  }
 
-  .buttonW {}
+  .sobreWork {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 52px !important;
+    top: 1920px !important;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px !important;
+    text-align: center;
+    width: 316px !important;
+    height: 90px !important;
+  }
+
+  .baixeW {
+    position: absolute !important;
+    left: 100px !important;
+    top: 2008px !important;
+    width: 220px !important;
+
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+  }
+
+  .buttonW {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 6.21951px 15.5488px !important;
+
+    position: absolute !important;
+    width: 90px !important;
+    height: 25px !important;
+    left: 155px !important;
+    top: 2050px !important;
+
+    background: var(--blue) !important;
+    border-radius: 15.54808px !important;
+
+    width: 120px !important;
+    height: 35px !important;
+
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+
+    color: var(--white) !important;
+
+    flex: none !important;
+    order: 0 !important;
+    flex-grow: 0 !important;
+  }
 }
 
 /* My Service Work */
@@ -385,6 +620,65 @@
   color: var(--white);
 }
 
+@media (max-width: 425px) {
+
+  /* Premium */
+
+  .MockupPremium {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 35px !important;
+    top: 2050px !important;
+    width: 350px !important;
+    height: 330px !important;
+  }
+
+  .acesse {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 65px !important;
+    top: 2355px !important;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px !important;
+  }
+
+  .sobrePremium {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 52px !important;
+    top: 2390px !important;
+    height: 60px !important;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px !important;
+    text-align: center;
+    width: 316px !important;
+    height: 82px !important;
+  }
+
+  .sobrePremium2 {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 52px !important;
+    top: 2470px !important;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px !important;
+    text-align: center;
+    width: 316px !important;
+    height: 62px !important;
+  }
+}
+
 /* Premium*/
 
 .MockupPremium {
@@ -439,6 +733,54 @@
   color: var(--dark);
 }
 
+@media (max-width: 425px) {
+
+  /* Conheça Nos */
+
+  .saiba {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    left: 75px !important;
+    top: 2560px !important;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px !important;
+  }
+
+  .somos {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 78px !important;
+    top: 2620px !important;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px !important;
+    text-align: center;
+    width: 275px !important;
+    height: 125px !important;
+  }
+
+  .somos2 {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 78px !important;
+    top: 2738px !important;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px !important;
+    text-align: center;
+    width: 275px !important;
+    height: 80px !important;
+  }
+}
+
 /* Conheça nos */
 
 .saiba {
@@ -486,6 +828,48 @@
   color: var(--dark);
 }
 
+@media (max-width: 425px) {
+
+  /* O porq deste tema */
+
+  .interrogacao {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 25px !important;
+    top: 2850px !important;
+    height: 190px !important;
+  }
+
+  .porq {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 27px !important;
+    top: 3045px !important;
+    width: 364px !important;
+    height: 53px !important;
+
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+
+  .escolhemos {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 55px !important;
+    top: 3105px !important;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px !important;
+    text-align: center;
+    width: 316px !important;
+    height: 235px !important;
+  }
+}
+
 /* O porq deste tema */
 
 .interrogacao {
@@ -526,6 +910,86 @@
   line-height: 130.7%;
 
   color: var(--dark);
+}
+
+@media (max-width: 575.98px) {
+
+  /* Rede sociais */
+
+  .MockupRede {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 0.4px !important;
+    top: 3380px !important;
+    width: 413px !important;
+    height: 330px !important;
+  }
+
+  .saibamais {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 34px !important;
+    top: 3660px !important;
+    width: 355px !important;
+    height: 120px !important;
+    line-height: 42px !important;
+
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+
+  .siga {
+    position: absolute !important;
+    left: 165px !important;
+    top: 3784px !important;
+    width: 95px !important;
+
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 26px !important;
+  }
+
+  .button2 {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 6.21951px 15.5488px !important;
+
+    position: absolute !important;
+    width: 87.1px !important;
+    height: 25.44px !important;
+    left: 155px !important;
+    top: 3820px !important;
+
+    background: var(--white) !important;
+    border-radius: 15.54808px !important;
+
+    width: 115.46px !important;
+    height: 33.59px !important;
+
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+
+    color: var(--blue) !important;
+
+    flex: none !important;
+    order: 0 !important;
+    flex-grow: 0 !important;
+  }
+
+  .fundo2 {
+    width: 100% !important;
+    height: 400px !important;
+    display: flex !important;
+    left: 0px !important;
+    top: 3490px !important;
+  }
 }
 
 /* Rede sociais */
@@ -575,7 +1039,6 @@
   color: #E4E3E3;
 }
 
-
 .button2 {
   display: flex;
   flex-direction: row;
@@ -611,6 +1074,51 @@
 
   background: var(--blue);
   z-index: -99;
+}
+
+
+@media (max-width: 425px) {
+
+  /*Video*/
+
+  .ComoUsar {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 30px !important;
+    top: 3940px !important;
+    width: 360px !important;
+    height: 58px !important;
+
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+
+  .VideoAbaixo {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 75px !important;
+    top: 4005px !important;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px !important;
+    text-align: center;
+    width: 270px !important;
+    height: 93px !important;
+  }
+
+  .VideoContainer {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 80px !important;
+    top: 4125px !important;
+    width: 260px !important;
+    height: 169px !important;
+  }
+
 }
 
 /*Video*/
@@ -660,6 +1168,7 @@
 .VideoContainer img {
   width: 100%;
   height: auto;
+  z-index: -1;
 }
 
 .Thumbnail {
@@ -667,13 +1176,172 @@
   position: relative;
 }
 
-.Thumbnail span {
+.ThumbnailImg {
   width: 100%;
   height: 100%;
-  position: absolute;
-  background: url("../../assets/PlayIcon.png") no-repeat;
+
+  /* background: url("../../assets/PlayIcon.png") no-repeat; */
   background-position: 50% 50%;
-  /* background-size: 100%; */
+}
+
+
+@media (max-width: 425px) {
+
+  /* Footer*/
+
+  .LogoBContainer {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    width: 100% !important;
+    top: 4400px !important;
+    left: 0px !important;
+  }
+
+  .Informacoes {
+    position: absolute !important;
+    width: 180px !important;
+    height: 140px !important;
+    left: 115px !important;
+    top: 4480px !important;
+
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+
+    flex-direction: column !important;
+  }
+
+  .SigaNos {
+    position: absolute !important;
+    left: 185px !important;
+    top: 4670px !important;
+
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+
+    flex-direction: column !important;
+  }
+
+  .Redes {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    width: 100% !important;
+    top: 4690px !important;
+    left: 0px !important;
+  }
+
+  .Service {
+    justify-content: center !important;
+    display: flex !important;
+    height: 32px !important;
+    position: absolute !important;
+    left: 204px !important;
+    top: 4784px !important;
+  }
+
+  .Contatos {
+    top: -7px !important;
+    left: 35px !important;
+    justify-content: center !important;
+  }
+
+
+  .EmailIcon {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 105px !important;
+    top: 4865px !important;
+    height: 25px !important;
+  }
+
+  .Email {
+    position: absolute !important;
+    left: 135px !important;
+    top: 4875px !important;
+
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+
+    flex-direction: column !important;
+  }
+
+  .WhatsIcon {
+    justify-content: center !important;
+    display: flex !important;
+    position: absolute !important;
+    left: 104px !important;
+    top: 4905px !important;
+    height: 25px !important;
+  }
+
+  .Whats {
+    position: absolute !important;
+    left: 135px !important;
+    top: 4912px !important;
+
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 8px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+
+    flex-direction: column !important;
+  }
+
+  .Direitos {
+    position: absolute !important;
+    left: 120px !important;
+    top: 4986px !important;
+    height: 20px !important;
+
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .FundoFoooter {
+    width: 100% !important;
+    height: 480px !important;
+    display: flex !important;
+    left: 0px !important;
+    top: 3935px !important;
+  }
+
+  .Rodape {
+    width: 100% !important;
+    height: 260px !important;
+    display: flex !important;
+    left: 0px !important;
+    top: 4755px !important;
+    background: #072F94 !important;
+  }
 }
 
 /* Footer*/
@@ -683,11 +1351,13 @@
 }
 
 .LogoBContainer {
+  justify-content: center;
+  display: flex;
   position: absolute;
-  width: 286px;
-  height: 55.06px;
-  left: 817px;
-  top: 5420px;
+  width: 50%;
+  height: 32.48px;
+  left: 460px;
+  top: 5440px;
 }
 
 .Informacoes {
@@ -709,7 +1379,7 @@
 
 .SigaNos {
   position: absolute;
-  left: 920px;
+  left: 899px;
   top: 5610px;
 
   font-family: 'Roboto';
@@ -724,7 +1394,7 @@
 .Redes {
   position: absolute;
   height: 16.01px;
-  left: 912px;
+  left: 890px;
   top: 5635px;
   margin-right: 1em;
 }
@@ -745,46 +1415,70 @@
   position: absolute;
   width: 30px;
   height: 30px;
-  left: 650px;
-  top: 5702px;
+  left: 450px;
+  top: 5730px;
+}
+
+.Contatos {
+  position: absolute;
+  top: 0px;
+  left: 55px;
+  white-space: nowrap;
 }
 
 .EmailIcon {
   position: absolute;
-  left: 820px;
-  top: 5706.50px;
+  left: 720px;
+  top: 5745px;
 }
 
 .Email {
   position: absolute;
-  left: 845px;
-  top: 5707.50px;
+  left: 760px;
+  top: 5750px;
 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
 
-  color: #0A3DC2;
+  color: var(--white);
 }
 
 .WhatsIcon {
   position: absolute;
-  left: 1015px;
-  top: 5706.50px;
+  left: 975px;
+  top: 5745px;
 }
 
 .Whats {
   position: absolute;
-  left: 1042px;
-  top: 5707.50px;
+  left: 1012px;
+  top: 5750px;
 
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
 
-  color: #0A3DC2;
+  color: var(--white);
+}
+
+.Direitos {
+  position: absolute;
+  width: 200px;
+  height: 58px;
+  left: 1625px;
+  top: 5750px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+
+  text-align: right;
+
+  color: var(--white);
 }
 
 .FundoFoooter {
@@ -801,11 +1495,11 @@
 .Rodape {
   position: absolute;
   width: 100%;
-  height: 44px;
+  height: 120px;
   left: 0px;
   top: 5697px;
 
-  background: var(--white);
+  background: #072F94;
   transform: matrix(1, 0, 0, -1, 0, 0);
   z-index: -99;
 }
