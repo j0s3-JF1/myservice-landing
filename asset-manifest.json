@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/myservice-landing/static/css/main.44d6da95.css",
+    "main.js": "/myservice-landing/static/js/main.a8bd161b.js",
+    "static/js/787.6606bfd5.chunk.js": "/myservice-landing/static/js/787.6606bfd5.chunk.js",
+    "static/media/MockupVideo.png": "/myservice-landing/static/media/MockupVideo.07e904e6959c77bed6b9.png",
+    "static/media/Mockup.png": "/myservice-landing/static/media/Mockup.740aa6cfeeee21f2889d.png",
+    "static/media/Mockup1.png": "/myservice-landing/static/media/Mockup1.4c969d6f667f0000e5ae.png",
+    "static/media/MockupWork.png": "/myservice-landing/static/media/MockupWork.5b0f2916f3288d285f1a.png",
+    "static/media/Saly-10.png": "/myservice-landing/static/media/Saly-10.e753b5084c2ccdf9b001.png",
+    "static/media/MockupPremium.png": "/myservice-landing/static/media/MockupPremium.5437d007675aa6390d27.png",
+    "static/media/inter.png": "/myservice-landing/static/media/inter.ee6a62adf59647798863.png",
+    "static/media/Name Azul.png": "/myservice-landing/static/media/Name Azul.f1386cfe477c617588f5.png",
+    "static/media/Name branco.png": "/myservice-landing/static/media/Name branco.a9b2149e343f917b79bf.png",
+    "static/media/logo.svg": "/myservice-landing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/myservice-landing/index.html",
+    "main.44d6da95.css.map": "/myservice-landing/static/css/main.44d6da95.css.map",
+    "main.a8bd161b.js.map": "/myservice-landing/static/js/main.a8bd161b.js.map",
+    "787.6606bfd5.chunk.js.map": "/myservice-landing/static/js/787.6606bfd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44d6da95.css",
+    "static/js/main.a8bd161b.js"
+  ]
+}
